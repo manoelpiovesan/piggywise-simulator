@@ -11,7 +11,7 @@ class PiggyModel {
   ///
   ///
   ///
-  PiggyModel.fromJson(Map<String, dynamic> map) {
+  PiggyModel.fromJson(final Map<String, dynamic> map) {
     id = map['id'];
     code = map['code'];
     balance = map['balance'];
@@ -23,7 +23,7 @@ class PiggyModel {
   ///
   ///
   Map<String, dynamic> get toMap {
-    return {
+    return <String, dynamic>{
       'id': id,
       'code': code,
       'balance': balance,

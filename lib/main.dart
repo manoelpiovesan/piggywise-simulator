@@ -22,7 +22,7 @@ class PiggySimulator extends StatelessWidget {
   ///
   ///
   @override
-  Widget build(BuildContext context) {
+  Widget build(final BuildContext context) {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
       title: 'Piggywise Simulator',
